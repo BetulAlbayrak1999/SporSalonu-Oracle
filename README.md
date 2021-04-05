@@ -6,6 +6,7 @@ projede kurulan tablolar sunlar:
 7- promotion table            8- log table                9- LOG_DETAILS table
 10-coach details table        11-customer details table   12- customer-sport details table 
 13-invoice details table      14- REFUND_INVOICE table
+
  Customer tablosu: musterinin verileri kaydetmek icin kullanilmaktadir.
  Customer details tablosu: musterinin  ayrintili bir sekilde bilgileri icermektedir.
  Coach tablosu: spor hocalarin verilerini kaydetmek icin kullanilmaktadir.
