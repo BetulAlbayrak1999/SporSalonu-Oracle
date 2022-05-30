@@ -1,12 +1,22 @@
 # sql_project4
-projenin amaci: bir spor salonun dogru bir sekilde faturalari cikartmaktir.
-projede kurulan tablolar sunlar:
-1-customer table              2- coach table             3- location table
-4- invoice table              5- sport table              6- customer-sport table 
-7- promotion table            8- log table                9- LOG_DETAILS table
-10-coach details table        11-customer details table   12- customer-sport details table 
-13-invoice details table      14- REFUND_INVOICE table
+### Projenin amacı: bir spor salonun dogru bir sekilde faturalari cikartmaktir.
+##### projede kurulan tablolar sunlar:
+1-customer table      
+2- coach table      
+3- location table
+4- invoice table    
+5- sport table        
+6- customer-sport table 
+7- promotion table       
+8- log table               
+9- LOG_DETAILS table
+10-coach details table  
+11-customer details table 
+12- customer-sport details table 
+13-invoice details table 
+14- REFUND_INVOICE table
 
+###### Açıklamalar: 
  Customer tablosu: musterinin verileri kaydetmek icin kullanilmaktadir.
  Customer details tablosu: musterinin  ayrintili bir sekilde bilgileri icermektedir.
  Coach tablosu: spor hocalarin verilerini kaydetmek icin kullanilmaktadir.
@@ -38,5 +48,5 @@ projede kurulan tablolar sunlar:
  trigger de kullanildi bu projede. details tablosunda verileri, asil tabloda olmadan kaydetmemek icin triggerleri kullanilmaktadir.
  yani trigger detail tablosuna girmeden once asil tablosu kontrol ediyor eger ayni key'e bir kayt bulunmazsa detail tabosuna girmesine izin vermiyor.
  
- projeyi test etmek icin test kodu vardir.
+ ###### projeyi test etmek icin test kodu da vardir.
  
